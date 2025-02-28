@@ -1,9 +1,8 @@
-# Oauth2-Jwt-Auth
-## OAuth2 JWT Provider & Resource Server
+# OAuth2 JWT Provider & Resource Server
 
 This sample demonstrates how to accept JWTs without using a separate authorization server.
 
-This approach is useful in REST APIs when a user would like to locally authenticate with a username and password and then use a JWT thereafter.
+This approach is useful in REST APIs, where users can authenticate locally with a username and password, and then use the generated JWT for subsequent requests.
 
 ## Running the Application
 
