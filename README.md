@@ -14,7 +14,7 @@ mvn spring-boot:run
 
 This will start the application on http://localhost:8081.
 
-##Requesting a Token
+## Requesting a Token
 
 To obtain a JWT, send a POST request to the /token endpoint with the username - user and the password - password. You can use curl to request the token:
 
