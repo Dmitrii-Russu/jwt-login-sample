@@ -30,7 +30,7 @@ This project demonstrates how to use Spring Security OAuth2 Resource Server to v
 Clone the repository:
 
 ```bash
-git clone https://github.com/Dmitrii-Russu/spring-academy-rest-api.git
+git clone https://github.com/Dmitrii-Russu/jwt-login-sample.git
 cd spring-academy-rest-api
 ```
 
@@ -38,8 +38,9 @@ Run the application with Maven:
 
 ```bash
 mvn spring-boot:run
-The application will start at http://localhost:8081.
 ```
+
+The application will start at http://localhost:8081.
 
 ## Using the Endpoints
 
@@ -76,5 +77,7 @@ Hello, user!
 The project includes both integration and unit tests using MockMvc and @WebMvcTest to verify:
 
 Generation of JWT tokens via the /token endpoint.
-Access to the protected resource / with a valid token.
+
+Access to the protected resource with a valid token.
+
 Handling of requests without authentication, resulting in a 401 Unauthorized status.
